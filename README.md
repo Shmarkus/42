@@ -18,7 +18,7 @@ Meie riistvara osakond on realiseerinud kaamera, mis kinnitatakse mõõdikule. K
 
 ## Flow
 
-´´´mermaid
+```mermaid
 sequenceDiagram
 
 loop Measure
@@ -27,4 +27,4 @@ loop Measure
 	Server->>User: Notify
 	Note right of Server: In case of leakage
 end
-´´´
+```
